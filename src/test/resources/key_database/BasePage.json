@@ -1,0 +1,52 @@
+[
+  {
+    "key": "basePage_navbar_woman",
+    "by": "ID",
+    "value": "menu_1"
+  },
+  {
+    "key": "basePage_navbar_man",
+    "by": "ID",
+    "value": "menu_6"
+  },
+  {
+    "key": "basePage_navbar_child",
+    "by": "ID",
+    "value": "menu_9"
+  },
+  {
+    "key": "basePage_navbar_baby",
+    "by": "ID",
+    "value": "menu_10"
+  },
+  {
+    "key": "basePage_navbar_home",
+    "by": "ID",
+    "value": "menu_18"
+  },
+  {
+    "key": "basePage_navbar_green",
+    "by": "ID",
+    "value": "32"
+  },
+  {
+    "key": "basePage_navbar_brands",
+    "by": "ID",
+    "value": "menu_31"
+  },
+  {
+    "key": "basePage_navbar_outlet",
+    "by": "ID",
+    "value": "menu_11"
+  },
+  {
+    "key": "basePage_navbar_man_shirt",
+    "by": "XPATH",
+    "value": "//*[@id=\"dd_mmm_6_169\"]/li[2]/a"
+  },
+  {
+    "key": "basePage_alert_text_ok_button",
+    "by": "XPATH",
+    "value": "//div[@class='alert alert-dismissible text-center cookiealert show']/div[1]/div[2]/div[1]/button"
+  }
+]

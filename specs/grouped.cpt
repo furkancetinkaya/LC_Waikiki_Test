@@ -1,0 +1,46 @@
+
+# Open LC Waikiki Website and Validate
+* Navigate to "https://www.lcwaikiki.com/tr-TR/TR".
+* Validate page "HomePage" is loaded successfully.
+* Close Alert Text.
+
+# Navigate to Man Shirts
+* Wait for "2" seconds.
+* On "HomePage", move the cursor on "basePage_navbar_man".
+* Wait for "2" seconds.
+* On "HomePage", click on "basePage_navbar_man_shirt".
+* Validate page "ManShirtsListPage" is loaded successfully.
+
+# Order the Shirts by price in decreasing order
+* Wait for "2" seconds.
+* On "ManShirtsListPage", click on "productListPage_sort_dropdown".
+* On "ManShirtsListPage", click on "productListPage_sort_dropdown_price_descending".
+* Wait for "2" seconds.
+* On "ManShirtsListPage", compare inner text of "productListPage_sort_dropdown_label" with "En Yüksek Fiyat".
+
+# Add the first 3 items to Favourites
+* Wait for "2" seconds.
+* On "ManShirtsListPage", add "1"th product to the favourites.
+* Wait for "2" seconds.
+* On "ManShirtsListPage", add "2"th product to the favourites.
+* Wait for "2" seconds.
+* On "ManShirtsListPage", add "3"th product to the favourites.
+* Wait for "2" seconds.
+
+ # Navigate to Favourites Page
+* Wait for "1" seconds.
+* On "ManShirtsListPage", click on "productListPage_favourites_button".
+
+# Check if added items are in Favourites Page
+* Wait for "1" seconds.
+//* On "FavouritesPage", validate "3" element in list "favouritesPage_item_count".
+
+# Remove the added items from Favourites
+* Wait for "2" seconds.
+* On "FavouritesPage", click on "favouritesPage_select_all_button".
+* Wait for "2" seconds.
+* On "FavouritesPage", validate "3" element in list "favouritesPage_selected_item_count".
+* Wait for "1" seconds.
+* On "FavouritesPage", click on "favouritesPage_remove_selected_items_button".
+* Wait for "1" seconds.
+* Check if the text "Favori Ürününüz Yok" is displayed.

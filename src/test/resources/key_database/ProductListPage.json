@@ -1,0 +1,27 @@
+[
+  {
+    "key": "productListPage_sort_dropdown",
+    "by": "ID",
+    "value": "dropdownMenu1"
+  },
+  {
+    "key": "productListPage_sort_dropdown_price_descending",
+    "by": "ID",
+    "value": "hfl_3"
+  },
+  {
+    "key": "productListPage_sort_dropdown_label",
+    "by": "XPATH",
+    "value": "//a[@id='dropdownMenu1']/label"
+  },
+  {
+    "key": "productListPage_product_list",
+    "by": "XPATH",
+    "value": "//*[@class='row c-items']"
+  },
+  {
+    "key": "productListPage_favourites_button",
+    "by": "XPATH",
+    "value": "//div[@class=\"col-sm-4 visible-md visible-lg pr-0\"]/a[@class='header-add-to-favorite']"
+  }
+]

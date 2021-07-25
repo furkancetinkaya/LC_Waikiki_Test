@@ -1,0 +1,22 @@
+[
+  {
+    "key": "favouritesPage_item_count",
+    "by": "XPATH",
+    "value": "//div[@id='itemCount']/span"
+  },
+  {
+    "key": "favouritesPage_select_all_button",
+    "by": "ID",
+    "value": "selectAll"
+  },
+  {
+    "key": "favouritesPage_selected_item_count",
+    "by": "XPATH",
+    "value": "//div[@id='selectedItemCount']/span"
+  },
+  {
+    "key": "favouritesPage_remove_selected_items_button",
+    "by": "ID",
+    "value": "removeSelected"
+  }
+]
